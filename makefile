@@ -6,4 +6,7 @@ Datos.dat : D.x
 
 D.x : D.cpp
 	c++ D.cpp -o D.x
+
+clean:
+	rm D.x *.dat
     

@@ -15,7 +15,7 @@ const int Xi = -1;
 const int Xf = 1;
 const double dx = 2.0/Nx;
 const double dt = 2.21E-3; //Este valor debe ser menor a (2*dx*dx)/(4*D) y este valor es de 2,22E-3.
-const int Nt = Tf/dt;
+const int Nt = 450;
 
 
 int main(void){
